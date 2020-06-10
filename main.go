@@ -2,6 +2,11 @@ package main
 
 import "fmt"
 
-func main(){
-	fmt.Println("hello go")
+//Hello dá as boa vindas
+func Hello(nome string) string {
+	return "Hello, " + nome
+}
+
+func main() {
+	fmt.Println(Hello("Mateus"))
 }
