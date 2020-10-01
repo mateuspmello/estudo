@@ -1,6 +1,7 @@
 package interation
 
-func imprime(a string) string {
+//Imprime imprime as 5 primeiras letras
+func Imprime(a string) string {
 	for i := 0; i < 4; i++ {
 		a += "a"
 	}
